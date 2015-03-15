@@ -1,0 +1,13 @@
+{
+  "name": "MyProject",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "*",
+    "gulp": "*",
+    "gulp-livereload": "*",
+    "gulp-prettify": "*",
+    "gulp-slm": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*"
+  }
+}

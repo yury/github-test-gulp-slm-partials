@@ -1,0 +1,6 @@
+html
+body
+  .main-background
+    main.main
+      == partial('partials/_header')
+  / | hallo
