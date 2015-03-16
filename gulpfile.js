@@ -21,7 +21,7 @@ var slmOutput = "./dist/html";
 
 gulp.task('slm', function(){
   return gulp.src(slmFiles)
-    .pipe(slm())
+    .pipe(slm({useCache: false}))
     .pipe(gulp.dest(slmOutput));
 });
 
